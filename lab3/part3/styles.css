@@ -40,6 +40,29 @@
   header, footer {
     border-top: 5px solid #a66;
     border-bottom: 5px solid #a66;
+    font
   }
   
   /* WRITE YOUR CODE BELOW HERE */
+
+  h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+
+  h2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  p{
+    font-family: serif;
+     font-size: 10px;
+  }
+ 
+  body{
+   font-size: 10px;
+  }
+  
+  link{
+    color: brown;
+  }
