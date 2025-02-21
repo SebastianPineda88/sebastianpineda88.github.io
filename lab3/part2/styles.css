@@ -1,5 +1,6 @@
 html {
     font-family: sans-serif;
+    font-size: larger;
 }
 
 /* Your CSS below here */
@@ -16,5 +17,13 @@ div {
     line-height: 140px;
     font-size: 1.26;
     background-color: red;
-    box-align: center;
+    color: white;
+    text-shadow: 4px 4px 4px black,
+                 inset 2px 2px 5px red,
+                 inset -2px -2px 5px black;
+    background: linear-gradient (to bottom right, red);
+    text-shadow: 2px 2px #000000;
+    border-radius: 0cqi;
+    border: 10px ridge red;
+    padding: 0.5; 
 }
