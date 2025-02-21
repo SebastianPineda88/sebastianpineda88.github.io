@@ -90,9 +90,10 @@ a[href^="http"]::after {
   }
  :link {
     color: #a66;
+    
  }
 
-  a:visited{
+ :visited{
     color: #a66;
     text-decoration: underline;
   }
@@ -100,4 +101,4 @@ a[href^="http"]::after {
   a:hover{
     text-transform: unset;
     text-transform:inherit;
-  }
+  } 
