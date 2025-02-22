@@ -3,11 +3,13 @@ body {
     color: #333;
     margin: 0;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+    margin-right: 15px
   }
 
   img {
       max-width: 100%;
       display: block;
+      align-content: right;
   }
   
   .logo {
@@ -21,6 +23,7 @@ body {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
+    float: left;
   }
   
   nav {
@@ -44,8 +47,13 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+    align-tracks: right;
   }
 
   .feature {
       width: 200px;
+  }
+
+  li {
+    image-orientation: from-image;
   }
