@@ -16,7 +16,9 @@ body {
     font-size: 200%;
     padding: 50px 20px;
     margin: 0 auto;
-    max-width: 980px;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    display: grid;
   }
   
   .grid {
@@ -27,6 +29,8 @@ body {
   }
   
   nav {
+    position: sticky;
+    top: 0;
     background-color: #000;
     padding: .5em;
   }
@@ -35,6 +39,8 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    justify-content: space-between;
   }
   
   nav a {
@@ -47,13 +53,15 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-    align-tracks: right;
+    display: grid;
+    gap: 1px;
+    grid-template-columns: 1fr 1fr;
   }
 
   .feature {
       width: 200px;
   }
 
-  li {
+  body {
     image-orientation: from-image;
   }
