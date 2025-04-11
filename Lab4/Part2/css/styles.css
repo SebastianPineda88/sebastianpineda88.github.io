@@ -1,5 +1,4 @@
-<style>
- h1 {
+h1 {
   font-family: helvetica, arial, sans-serif;
   text-align: center;
 }
@@ -8,21 +7,13 @@ body {
   width: 640px;
   margin: 0 auto;
 }
-.pic2{
-  float: left;
-  position: calc();
-}
 
-
-.full-image{
+.full-img {
   position: relative;
   display: block;
   width: 640px;
   height: 480px;
-  font-display:left ;
 }
-
-
 
 .overlay {
   position: absolute;
