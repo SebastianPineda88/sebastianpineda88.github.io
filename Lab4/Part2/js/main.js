@@ -24,7 +24,7 @@ for (const image of images) {
     var elem = document.createElement("img");
     elem.setAttribute("src", "./images/"+image);
     elem.setAttribute("alt", images_alt_text[images.indexOf(image)]);
-    elem.addEventListener("click",() => alert("clicked");
+    //elem.addEventListener("click",() => alert("clicked");
     thumbbar.appendChild(elem);
 
 }
